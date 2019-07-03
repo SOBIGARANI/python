@@ -11,4 +11,7 @@ for i in range(0,n-1):
       c=c+1
   if(c!=0 and (ar[i] not in s)):
     s=s+str(ar[i])+" "
-print(s)
+if(s==""):
+  print("Unique")
+else:
+  print(s)
