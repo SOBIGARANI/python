@@ -1,2 +1,5 @@
 a=input().split()
-print(max(a))
+ar=[]
+for i in a:
+  ar.append(int(i))
+print(max(ar))
